@@ -28,7 +28,7 @@ class Cursebox(object):
     >>> if event == EVENT_CTRL_C:
     >>>     exit()
     """
-    def __init__(self, blocking_events=False):
+    def __init__(self, blocking_events=True):
         self.blocking_events = blocking_events
 
         self.mutex = Lock()
