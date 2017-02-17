@@ -17,8 +17,8 @@ provide a modern approach to terminal drawing:
 ...     greeting = "Hello, World!"
 ...     # Center text on the screen
 ...     cb.put(x=(width - len(greeting)) / 2,
-               y=height / 2, text=greeting,
-               fg=colors.black, bg=colors.white)
+...            y=height / 2, text=greeting,
+...            fg=colors.black, bg=colors.white)
 ...     # Wait for any keypress
 ...     cb.poll_event()
 
