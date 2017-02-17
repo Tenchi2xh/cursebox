@@ -6,4 +6,4 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
-script: "py.test ."
+script: "PYTHONPATH=. py.test ."
