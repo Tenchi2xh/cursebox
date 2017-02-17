@@ -30,4 +30,8 @@
 
 # TODO
 
-...
+- Add on PyPI
+- Unit tests
+- Finish documentation
+- Handmade `curses` module using ANSI escape sequences for Windows replacement
+- Add pixel buffer from other project
