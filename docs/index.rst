@@ -3,8 +3,6 @@
 .. image:: _static/logo_animation.gif
    :width: 216px
 
-|
-
 *Curses made easy*
 
 ----
