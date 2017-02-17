@@ -89,7 +89,7 @@ class Colors(object):
         return self.codes["white"] + self.offset
 
     @staticmethod
-    def to_xterm(color):
+    def from_rgb(color):
         return closest_color(color)
 
 colors = Colors()

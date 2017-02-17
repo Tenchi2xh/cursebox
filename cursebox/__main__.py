@@ -11,7 +11,7 @@ logo = [u"                    █          ",
         u"█▄█ █▄█ █   ▄▄█ █▄▄ █▄█ █▄█ █ █"]
 
 
-grey = colors.to_xterm((127, 127, 127))
+grey = colors.from_rgb((127, 127, 127))
 rainbow = ["ffffff", "ffaaaa", "ff5555", "ff0000",
            "ff6d00", "ffda00", "b6ff00", "48ff00",
            "00ff24", "00ff91", "00ffff", "0091ff",
@@ -25,7 +25,7 @@ def demo():
     l_width, l_height = len(logo[0]), len(logo)
     x_s = 0.4
 
-    palette = [colors.to_xterm(hex_to_rgb(hex)) for hex in rainbow]
+    palette = [colors.from_rgb(hex_to_rgb(hex)) for hex in rainbow]
     padding = [colors.white] * (int(x_s * l_width) + 3)
     palette = padding + palette + padding
 
