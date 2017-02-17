@@ -8,3 +8,4 @@ __pycache__/
 *.py[cod]
 *$py.class
 docs/_build/
+.cache/

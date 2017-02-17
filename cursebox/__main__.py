@@ -3,6 +3,7 @@
 from .cursebox import Cursebox
 from .colors import colors
 from .constants import EVENT_SKIP
+from .utils import hex_to_rgb
 
 
 logo = [u"                    █          ",
@@ -55,11 +56,6 @@ def demo():
             if t > l + len(palette):
                 t = 0
 
-
-def hex_to_rgb(hex_color):
-    return (int(hex_color[0:2], 16),
-            int(hex_color[2:4], 16),
-            int(hex_color[4:6], 16))
 
 if __name__ == "__main__":
     demo()
