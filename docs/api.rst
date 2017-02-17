@@ -6,6 +6,8 @@ Classes
 
 .. autoclass:: cursebox.Cursebox
    :members:
+   :undoc-members:
 
-.. automodule:: cursebox.pairs
+.. autoclass:: cursebox.pairs.Pairs
    :members:
+   :undoc-members:
