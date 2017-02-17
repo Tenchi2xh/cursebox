@@ -29,8 +29,8 @@ class Pairs(object):
 
     def __getitem__(self, pair):
         fg, bg = pair
-        assert type(fg) is int and -1 <= fg < 256
-        assert type(bg) is int and -1 <= bg < 256
+        assert isinstance(fg, int) and -1 <= fg < 256
+        assert isinstance(bg, int) and -1 <= bg < 256
 
         if pair in self.pair_numbers:
             # If pair is stored, retrieve it.

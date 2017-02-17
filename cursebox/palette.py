@@ -28,7 +28,7 @@ def generate_xterm_256():
 
     add_colors(steps_bright, 9, skip=True, reverse=True)
     add_colors(steps_rgb, 16)
-    
+
     for i in range(24):
         colors[232 + i] = tuple([8 + 10 * i] * 3)
 

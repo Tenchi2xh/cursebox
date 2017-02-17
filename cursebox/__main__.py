@@ -29,7 +29,7 @@ def demo():
     padding = [colors.white] * (int(x_s * l_width) + 3)
     palette = padding + palette + padding
 
-    with Cursebox() as cb:
+    with Cursebox(blocking_events=False) as cb:
         width, height = cb.width, cb.height
 
         def draw_logo(t):
@@ -56,8 +56,10 @@ def demo():
                 t = 0
 
 
-def hex_to_rgb(hex):
-    return int(hex[0:2], 16), int(hex[2:4], 16), int(hex[4:6], 16)
+def hex_to_rgb(hex_color):
+    return (int(hex_color[0:2], 16),
+            int(hex_color[2:4], 16),
+            int(hex_color[4:6], 16))
 
 if __name__ == "__main__":
     demo()
