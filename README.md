@@ -10,6 +10,7 @@
     <a href='http://cursebox.readthedocs.io/en/latest/?badge=latest'>
         <img height=27 src='https://readthedocs.org/projects/cursebox/badge/?version=latest' alt='Documentation Status' />
     </a>
+    <a href="https://www.codacy.com/app/Tenchi2xh/cursebox">
         <img height=27 alt="Codacy" src="https://img.shields.io/codacy/cd823f12d6dc4a78a68825d97448ae9f.svg">
     </a>
     <a href="https://travis-ci.org/Tenchi2xh/cursebox">
