@@ -57,6 +57,10 @@ class Colors(object):
         return 8 if self.bright else 0
 
     @property
+    def transparent(self):
+        return -1
+
+    @property
     def black(self):
         return 0
 
