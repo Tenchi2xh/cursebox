@@ -28,7 +28,9 @@ class Cursebox(object):
     >>> if event == EVENT_CTRL_C:
     >>>     exit()
     """
-    def __init__(self):
+    def __init__(self, blocking_events=False):
+        self.blocking_events = blocking_events
+
         self.mutex = Lock()
         self.threads = []
 
@@ -173,7 +175,8 @@ class Cursebox(object):
         # Using raw instead of cbreak() gives us access to CTRL+C and others
         curses.raw()
         self.screen.keypad(True)
-        self.screen.timeout(33)
+        if not self.blocking_events:
+            self.screen.timeout(33)
         curses.start_color()
         curses.use_default_colors()
         self.hide_cursor()
