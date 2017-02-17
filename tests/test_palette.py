@@ -1,3 +1,5 @@
+from six import iteritems
+
 from cursebox import palette
 from cursebox.utils import hex_to_rgb
 
@@ -91,7 +93,7 @@ def test_generate_xterm_256():
 
     generated_palette = palette.generate_xterm_256()
 
-    for i, hex_color in reference_palette.iteritems():
+    for i, hex_color in iteritems(reference_palette):
         assert generated_palette[i] == hex_to_rgb(hex_color[1:]), str(i)
 
 
