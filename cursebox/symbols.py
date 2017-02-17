@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-from ..utils import is_native_windows
+from .utils import is_native_windows
 
 UTF8_SYMBOLS = {
     "BOX_TOP_LEFT": u"┌",
