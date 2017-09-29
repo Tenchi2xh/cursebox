@@ -4,9 +4,6 @@
 *Curses made simple*
 
 <p align="right">
-    <a href="https://pypi.python.org/pypi?:action=display&name=cursebox">
-        <img height=27 alt="PyPI" src="https://img.shields.io/pypi/v/cursebox.svg">
-    </a>
     <a href='http://cursebox.readthedocs.io/en/latest/?badge=latest'>
         <img height=27 src='https://readthedocs.org/projects/cursebox/badge/?version=latest' alt='Documentation Status' />
     </a>
