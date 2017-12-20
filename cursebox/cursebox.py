@@ -76,7 +76,7 @@ class Cursebox(object):
         self.mutex.acquire()
         if x < self.width and y < self.height:
             try:
-                self.screen.addstr(y, x,
+                self.screen.addstr(int(y), int(x),
                                    symbols.encode(text),
                                    self.pairs[fg, bg])
             except curses.error:
