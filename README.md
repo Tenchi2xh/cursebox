@@ -4,6 +4,9 @@
 *Curses made simple*
 
 <p align="right">
+    <a href="https://pypi.org/project/cursebox-lib/">
+        <img height=27 alt="PyPI" src="https://img.shields.io/pypi/v/cursebox-lib.svg">
+    </a>
     <a href='http://cursebox.readthedocs.io/en/latest/?badge=latest'>
         <img height=27 src='https://readthedocs.org/projects/cursebox/badge/?version=latest' alt='Documentation Status' />
     </a>
@@ -19,6 +22,10 @@
 </p>
 
 ---
+
+```bash
+pip install cursebox-lib
+```
 
 Cursebox is a library based around the [curses](https://docs.python.org/3/library/curses.html) standard module. Its goal is to avoid the C-like ceremony of [curses](https://docs.python.org/3/library/curses.html) and provide a modern approach to terminal drawing:
 
@@ -45,9 +52,7 @@ Full documentation on [Read the Docs](http://cursebox.readthedocs.io/)
 
 # TODO
 
-- Add on PyPI
 - Unit tests
 - Finish documentation
 - Handmade `curses` module using ANSI escape sequences for Windows replacement
 - Add pixel buffer from other project
-g
