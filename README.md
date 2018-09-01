@@ -1,5 +1,5 @@
 
-<img src=resources/logo_animation.gif width=216/>
+<img src=https://github.com/Tenchi2xh/cursebox/raw/master/resources/logo_animation.gif width=216/>
 
 *Curses made simple*
 
